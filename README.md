@@ -1,4 +1,7 @@
-This app 
+This app demonstrates Angular Forms, Angular Material UI, login via NodeJS backend, Toast alerts, and role based permissions.
+The admin login is prepopulated, but here it is anyway
+  Username: admin
+  Password: Admin$1234
 
 Registration:
 
