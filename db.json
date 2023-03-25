@@ -1,0 +1,264 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Mosley",
+      "password": "Admin$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "collier1",
+      "name": "Collier",
+      "password": "Test@1234",
+      "email": "sybilsavage@aclima.com",
+      "gender": "female",
+      "role": "tech",
+      "isactive": true
+    },
+    {
+      "id": "soph329",
+      "name": "Sophia",
+      "password": "Test@1233",
+      "email": "mandyabbott@talae.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "suzy_42",
+      "name": "Susan",
+      "password": "Test@1234",
+      "email": "benitarutledge@buzzopia.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "kramer_gamer",
+      "name": "Kramer",
+      "password": "Password1@",
+      "email": "changhubbard@animalia.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "lemming",
+      "name": "Fleming",
+      "password": "Test$1234",
+      "email": "ortizdelacruz@xeronk.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "speeder24",
+      "name": "Parker",
+      "password": "Test@1234",
+      "email": "beulahfrazier@gallaxia.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "extra_sand",
+      "name": "Terra",
+      "password": "Test@1233",
+      "email": "loismorales@kog.com",
+      "gender": "female",
+      "role": "tech",
+      "isactive": true
+    },
+    {
+      "id": "gledale84",
+      "name": "Glenda",
+      "password": "Test@1234",
+      "email": "staffordsosa@microluxe.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "quinning",
+      "name": "Quinn",
+      "password": "Password1@",
+      "email": "dyeralford@chorizon.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": false
+    },
+    {
+      "id": "elbagrease",
+      "name": "Elba",
+      "password": "Test$1234",
+      "email": "clarissarandolph@collaire.com",
+      "gender": "female",
+      "role": "admin",
+      "isactive": false
+    },
+    {
+      "id": "sosa99",
+      "name": "Sosa",
+      "password": "Test@1234",
+      "email": "watershurley@datagene.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "glenn9000",
+      "name": "Glenn",
+      "password": "Test@1233",
+      "email": "tonihinton@architax.com",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "klein",
+      "name": "Klein",
+      "password": "Test@1234",
+      "email": "hardingmcneil@zoxy.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "andrew9",
+      "name": "Andrew",
+      "password": "Password1@",
+      "email": "greenemckinney@pathways.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": false
+    },
+    {
+      "id": "kent233",
+      "name": "Kent",
+      "password": "Test$1234",
+      "email": "frenchmendez@capscreen.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true
+    },
+    {
+      "id": 17,
+      "name": "Juarez",
+      "password": "Test@1234",
+      "email": "wolfevaughan@idetica.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "ramirez990",
+      "name": "Ramirez",
+      "password": "Test@1233",
+      "email": "calhounmullins@entogrok.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": false
+    },
+    {
+      "id": "hobbs56",
+      "name": "Hobbs",
+      "password": "Test@1234",
+      "email": "schroederstrong@aquasure.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "beatriz223",
+      "name": "Beatriz",
+      "password": "Password1@",
+      "email": "ineswong@snowpoke.com",
+      "gender": "female",
+      "role": "tech",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Juarez",
+      "Creditlimit": 12000
+    },
+    {
+      "id": 2,
+      "name": "Rahul",
+      "Creditlimit": 43000
+    },
+    {
+      "id": 3,
+      "name": "Beatriz",
+      "Creditlimit": 7000
+    },
+    {
+      "id": 4,
+      "name": "Klein",
+      "Creditlimit": 20000
+    },
+    {
+      "id": 5,
+      "name": "Noble",
+      "Creditlimit": 17000
+    }
+  ]
+}
