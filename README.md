@@ -19,10 +19,13 @@ Edit User when using the 'Admin' role:
 ![Screenshot 2023-03-24 at 8 38 40 PM](https://user-images.githubusercontent.com/100744679/227690218-1bddbfc8-5b41-4f21-acbf-0efd6430f577.jpg)
 
 Demonstration of roles: if you are logged in as admin, clicking "Add Customer", "Edit" or "Delete" will result in "Success" alert, if you are logged in as technician or user, clicking those buttons will result in "You don't have access to do that." alert.
+
 ![Screenshot 2023-03-24 at 8 38 58 PM](https://user-images.githubusercontent.com/100744679/227690230-7188af0e-b474-44af-8453-12d30a832865.jpg)
 
 
-# Authentication
+HOW TO USE:
+
+# Authentication Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
