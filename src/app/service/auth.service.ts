@@ -10,7 +10,8 @@ export class AuthService {
 
   }
   // apiurl = 'http://localhost:3000/user';
-  apiurl = 'https://authentication-server-app.herokuapp.com/user';
+  // heroku URI: https://authentication-server-app.herokuapp.com
+  apiurl = 'https://my-json-server.typicode.com/lithdoh/authentication-server/user';
   
 
   RegisterUser(inputdata: any) {
@@ -27,7 +28,8 @@ export class AuthService {
   }
   getuserrole() {
     // return this.http.get('http://localhost:3000/role');
-    return this.http.get('https://authentication-server-app.herokuapp.com/role');
+    // heroku URI: https://authentication-server-app.herokuapp.com
+    return this.http.get('https://my-json-server.typicode.com/lithdoh/authentication-server/role');
     
   }
   isloggedin() {
@@ -38,12 +40,14 @@ export class AuthService {
   }
   GetAllCustomer() {
     // return this.http.get('http://localhost:3000/customer');
-    return this.http.get('https://authentication-server-app.herokuapp.com/customer');
+    // heroku URI: https://authentication-server-app.herokuapp.com
+    return this.http.get('https://my-json-server.typicode.com/lithdoh/authentication-server/customer');
     
   }
   Getaccessbyrole(role: any, menu: any) {
     // return this.http.get('http://localhost:3000/roleaccess?role=' + role 
-    return this.http.get('https://authentication-server-app.herokuapp.com/roleaccess?role=' + role 
+    // heroku URI: https://authentication-server-app.herokuapp.com
+    return this.http.get('https://my-json-server.typicode.com/lithdoh/authentication-server/roleaccess?role=' + role 
     + '&menu=' + menu)
   }
 }
